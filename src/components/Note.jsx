@@ -1,6 +1,7 @@
 
 
 function Note(){
+    
     return (
         <div className="note">
         <h1>Compras</h1>
