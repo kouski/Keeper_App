@@ -1,11 +1,11 @@
 
 
-function Note(){
+function Note(props){
     
     return (
         <div className="note">
-        <h1>Compras</h1>
-        <p>Ir al Costco</p>
+        <h1>{props.title}</h1>
+        <p>{props.content}</p>
 
         </div>
         
